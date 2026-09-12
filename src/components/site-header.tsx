@@ -1,8 +1,7 @@
 import Link from "next/link";
 import { site } from "@/content/site";
 import { Container } from "./container";
-import { SiteNav } from "./site-nav";
-import { TrackerDialog } from "./tracker-dialog";
+import { TrackerButton } from "./tracker-button";
 
 export function SiteHeader() {
   return (
@@ -21,8 +20,13 @@ export function SiteHeader() {
           </span>
         </Link>
         <div className="flex items-center gap-1.5">
-          <SiteNav />
-          <TrackerDialog />
+          <TrackerButton className="hidden rounded-md bg-pine-700 px-3 py-2 text-sm text-white hover:bg-pine-800 md:inline-flex">
+            <span className="relative flex h-2 w-2" aria-hidden="true">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-pine-200 opacity-75" />
+              <span className="relative inline-flex h-2 w-2 rounded-full bg-pine-200" />
+            </span>
+            Trail Tracker
+          </TrackerButton>
         </div>
       </Container>
     </header>

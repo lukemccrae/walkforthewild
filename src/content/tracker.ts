@@ -20,4 +20,14 @@
 // `;
 // ---------------------------------------------------------------------------
 
-export const trackerEmbedHtml = "";
+export const trackerEmbedHtml = `
+  <div id="corsa-embed">
+    Loading map...
+  </div>
+  <script
+    src="https://d2ugbf2pkr6nwe.cloudfront.net/corsa-bundle-2.js"
+    data-corsa-public-id="2a535858-b0cf-40c3-9acf-93a650ab5983"
+    data-mount="#corsa-embed"
+    async
+  ></script>
+`;

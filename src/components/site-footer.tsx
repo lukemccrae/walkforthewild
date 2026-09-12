@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { site } from "@/content/site";
 import { Container } from "./container";
 
@@ -8,29 +7,13 @@ export function SiteFooter() {
   return (
     <footer className="border-t border-stone-200 bg-white">
       <Container className="py-12">
-        <div className="grid gap-8 sm:grid-cols-3">
+        <div className="grid gap-8 sm:grid-cols-2">
           <div>
             <p className="font-bold tracking-tight text-ink">{site.name}</p>
             <p className="mt-2 max-w-xs text-sm leading-6 text-stone-600">
               Wesley &ldquo;{site.trailName}&rdquo; {site.hiker}&apos;s 8,000-mile
               walk across America for public lands.
             </p>
-          </div>
-
-          <div>
-            <p className="text-sm font-semibold text-ink">Explore</p>
-            <ul className="mt-3 space-y-2 text-sm">
-              {site.nav.map((item) => (
-                <li key={item.href}>
-                  <Link
-                    href={item.href}
-                    className="text-stone-600 hover:text-pine-700"
-                  >
-                    {item.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
           </div>
 
           <div>

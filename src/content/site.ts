@@ -1,8 +1,3 @@
-export type NavItem = {
-  label: string;
-  href: string;
-};
-
 export type SocialLink = {
   label: string;
   href: string;
@@ -23,7 +18,7 @@ export const site = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://walkforthewild.org",
 
   // Primary donation destination. Replace when the final donation link is ready.
-  donateUrl: "https://www.gofundme.com/f/jc4wu-walk-for-the-wild",
+  donateUrl: "https://gofund.me/72d728716",
   donateLabel: "Donate",
 
   // TODO: replace with the embedded tracker snippet Wesley supplies.
@@ -51,15 +46,6 @@ export const site = {
       handle: "Wesley Tils",
     },
   ] satisfies SocialLink[],
-
-  nav: [
-    { label: "Home", href: "/" },
-    { label: "About", href: "/about" },
-    { label: "The Expedition", href: "/expedition" },
-    { label: "Updates", href: "/updates" },
-    { label: "Media", href: "/media" },
-    { label: "Donate", href: "/donate" },
-  ] satisfies NavItem[],
 } as const;
 
 export type Site = typeof site;
