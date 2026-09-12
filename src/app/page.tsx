@@ -4,6 +4,7 @@ import { DonateButton } from "@/components/donate-button";
 import { GoFundMeEmbed } from "@/components/gofundme-embed";
 import { TrackerButton } from "@/components/tracker-button";
 import { TrackerEmbed } from "@/components/tracker-embed";
+import { conservation } from "@/content/conservation";
 import { expedition } from "@/content/expedition";
 import { site } from "@/content/site";
 import { trackerEmbedHtml } from "@/content/tracker";
@@ -74,6 +75,12 @@ export default function Home() {
                 </span>
                 Trail Tracker
               </TrackerButton>
+              <a
+                href="#media"
+                className="inline-flex items-center justify-center rounded-md border border-stone-300 bg-white px-6 py-3 text-base font-semibold text-ink transition-colors hover:bg-stone-100"
+              >
+                Media
+              </a>
             </div>
             <p className="mt-4 hidden text-sm text-stone-500 sm:block">
               Started May 25, 2026 · projected finish{" "}
@@ -97,10 +104,13 @@ export default function Home() {
         </Container>
       </section>
 
-      <section className="border-b border-stone-200">
+      <section
+        id="media"
+        className="scroll-mt-16 border-b border-stone-200"
+      >
         <Container className="py-14 sm:py-20">
           <h2 className="text-2xl font-bold tracking-tight text-ink sm:text-3xl">
-            Podcast appearances
+            Media
           </h2>
           <ul className="mt-8 grid gap-4 sm:grid-cols-2">
             {podcastGroups.map((group) => (
@@ -131,6 +141,44 @@ export default function Home() {
               </li>
             ))}
           </ul>
+        </Container>
+      </section>
+
+      <section className="border-b border-stone-200">
+        <Container className="py-14 sm:py-20">
+          <h2 className="text-2xl font-bold tracking-tight text-ink sm:text-3xl">
+            Conservation along the route
+          </h2>
+          <p className="mt-4 max-w-2xl text-lg leading-8 text-stone-600">
+            The walk crosses lands stewarded by these organizations, from Maine
+            to the Pacific coast.
+          </p>
+          <div className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            {conservation.map((region) => (
+              <div key={region.region}>
+                <h3 className="text-sm font-semibold uppercase tracking-widest text-pine-700">
+                  {region.region}
+                </h3>
+                <ul className="mt-3 space-y-4">
+                  {region.organizations.map((org) => (
+                    <li key={org.link}>
+                      <a
+                        href={org.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-medium text-ink underline underline-offset-4 hover:text-pine-700"
+                      >
+                        {org.name}
+                      </a>
+                      <p className="mt-1 text-sm leading-6 text-stone-600">
+                        {org.details}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
         </Container>
       </section>
 

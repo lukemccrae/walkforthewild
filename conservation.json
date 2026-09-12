@@ -1,0 +1,214 @@
+{
+  "regions": [
+    {
+      "region": "Maine",
+      "organizations": [
+        {
+          "name": "Appalachian Trail Conservancy",
+          "link": "https://appalachiantrail.org",
+          "details": "Nonprofit steward of the Appalachian Trail, protecting the footpath and the lands around it from Georgia to Maine."
+        },
+        {
+          "name": "Maine Coast Heritage Trust",
+          "link": "https://www.mcht.org",
+          "details": "Conserves and cares for Maine's coastal lands and islands, including working waterfronts and public access."
+        },
+        {
+          "name": "Baxter State Park",
+          "link": "https://baxterstatepark.org",
+          "details": "Forever-wild park around Katahdin, donated by Percival Baxter and managed for remote, low-impact recreation."
+        }
+      ]
+    },
+    {
+      "region": "New Hampshire",
+      "organizations": [
+        {
+          "name": "Appalachian Mountain Club",
+          "link": "https://www.outdoors.org",
+          "details": "Protects the Northeast's mountains, trails, and rivers, and maintains much of the White Mountain trail network."
+        },
+        {
+          "name": "Society for the Protection of New Hampshire Forests",
+          "link": "https://forestsociety.org",
+          "details": "Land trust conserving New Hampshire's forests, farms, and shorelines for recreation and wildlife."
+        }
+      ]
+    },
+    {
+      "region": "Vermont",
+      "organizations": [
+        {
+          "name": "Green Mountain Club",
+          "link": "https://www.greenmountainclub.org",
+          "details": "Builds, maintains, and protects the Long Trail and its side trails through the Green Mountains."
+        },
+        {
+          "name": "Vermont Land Trust",
+          "link": "https://vlt.org",
+          "details": "Conserves working lands, forests, and natural areas across Vermont."
+        }
+      ]
+    },
+    {
+      "region": "New York",
+      "organizations": [
+        {
+          "name": "Adirondack Council",
+          "link": "https://www.adirondackcouncil.org",
+          "details": "Advocacy organization defending the Adirondack Park's wild character and public lands."
+        },
+        {
+          "name": "Adirondack Mountain Club",
+          "link": "https://www.adk.org",
+          "details": "Stewards trails and protects the Adirondack and Catskill forest preserves."
+        },
+        {
+          "name": "Finger Lakes Land Trust",
+          "link": "https://www.fllt.org",
+          "details": "Conserves the forests, farms, gorges, and shorelines of the Finger Lakes region."
+        }
+      ]
+    },
+    {
+      "region": "Pennsylvania",
+      "organizations": [
+        {
+          "name": "Western Pennsylvania Conservancy",
+          "link": "https://waterlandlife.org",
+          "details": "Protects water, land, and life across western Pennsylvania and operates Fallingwater."
+        },
+        {
+          "name": "Keystone Trails Association",
+          "link": "https://www.kta-hike.org",
+          "details": "Statewide trail advocacy group building and maintaining hiking trails across Pennsylvania."
+        }
+      ]
+    },
+    {
+      "region": "Ohio",
+      "organizations": [
+        {
+          "name": "Buckeye Trail Association",
+          "link": "https://www.buckeyetrail.org",
+          "details": "Volunteer group building, maintaining, and promoting the roughly 1,450-mile Buckeye Trail loop through Ohio."
+        }
+      ]
+    },
+    {
+      "region": "Michigan",
+      "organizations": [
+        {
+          "name": "North Country Trail Association",
+          "link": "https://northcountrytrail.org",
+          "details": "Volunteer steward of the 4,800-mile North Country National Scenic Trail across eight states."
+        },
+        {
+          "name": "Little Traverse Conservancy",
+          "link": "https://www.landtrust.org",
+          "details": "Protects northern Michigan's natural lands and shorelines in the Little Traverse Bay region."
+        },
+        {
+          "name": "Michigan Nature Association",
+          "link": "https://michigannature.org",
+          "details": "Owns and manages nature sanctuaries protecting rare species and habitats statewide."
+        }
+      ]
+    },
+    {
+      "region": "Wisconsin",
+      "organizations": [
+        {
+          "name": "Ice Age Trail Alliance",
+          "link": "https://www.iceagetrail.org",
+          "details": "Builds and maintains the Ice Age National Scenic Trail across Wisconsin."
+        }
+      ]
+    },
+    {
+      "region": "Minnesota",
+      "organizations": [
+        {
+          "name": "The Nature Conservancy in Minnesota",
+          "link": "https://www.nature.org/en-us/about-us/where-we-work/united-states/minnesota/",
+          "details": "Conserves Minnesota's forests, prairies, and waters, including the North Woods."
+        }
+      ]
+    },
+    {
+      "region": "North Dakota",
+      "organizations": [
+        {
+          "name": "Badlands Conservation Alliance",
+          "link": "https://badlandsconservationalliance.org",
+          "details": "Advocates for the ecological integrity of the North Dakota Badlands and surrounding grasslands."
+        },
+        {
+          "name": "The Nature Conservancy in North Dakota",
+          "link": "https://www.nature.org/en-us/about-us/where-we-work/united-states/north-dakota/",
+          "details": "Protects native prairie, badlands, and wetland habitat across North Dakota."
+        }
+      ]
+    },
+    {
+      "region": "Montana",
+      "organizations": [
+        {
+          "name": "Wild Montana",
+          "link": "https://wildmontana.org",
+          "details": "Protects Montana's wildlands and rivers and works to keep public lands public."
+        },
+        {
+          "name": "Bob Marshall Wilderness Foundation",
+          "link": "https://www.bmwf.org",
+          "details": "Supports trail stewardship in the Bob Marshall Wilderness Complex."
+        },
+        {
+          "name": "Glacier National Park Conservancy",
+          "link": "https://glacier.org",
+          "details": "Philanthropic partner funding Glacier National Park's trails, wildlife, and education."
+        },
+        {
+          "name": "Pacific Northwest Trail Association",
+          "link": "https://pnt.org",
+          "details": "Builds, maintains, and protects the 1,200-mile Pacific Northwest National Scenic Trail."
+        }
+      ]
+    },
+    {
+      "region": "Idaho",
+      "organizations": [
+        {
+          "name": "Idaho Conservation League",
+          "link": "https://idahoconservation.org",
+          "details": "Idaho's largest conservation nonprofit, protecting clean water, wildlands, and wildlife."
+        },
+        {
+          "name": "Kaniksu Land Trust",
+          "link": "https://kaniksu.org",
+          "details": "Conserves the forests, waterways, and working lands of the Idaho Panhandle."
+        }
+      ]
+    },
+    {
+      "region": "Washington",
+      "organizations": [
+        {
+          "name": "Washington Trails Association",
+          "link": "https://www.wta.org",
+          "details": "Mobilizes volunteers to build and maintain trails across Washington."
+        },
+        {
+          "name": "Olympic Park Associates",
+          "link": "https://olympicparkassociates.org",
+          "details": "Advocacy group protecting Olympic National Park's wilderness and ecosystems."
+        },
+        {
+          "name": "North Cascades Institute",
+          "link": "https://ncascades.org",
+          "details": "Connects people to the North Cascades through education and stewardship."
+        }
+      ]
+    }
+  ]
+}
