@@ -144,6 +144,21 @@ export default function Home() {
         </Container>
       </section>
 
+      <section id="donate" className="scroll-mt-16 bg-pine-800">
+        <Container className="py-16 text-center sm:py-20">
+          <h2 className="mx-auto max-w-2xl text-2xl font-bold tracking-tight text-white sm:text-3xl">
+            Help keep America&apos;s wild places wild.
+          </h2>
+          <p className="mx-auto mt-4 max-w-xl text-base leading-7 text-pine-100">
+            Support the walk and the conservation organizations it funds. Your
+            gift goes directly to protecting the land under Wesley&apos;s feet.
+          </p>
+          <div className="mx-auto mt-8 max-w-md">
+            <GoFundMeEmbed />
+          </div>
+        </Container>
+      </section>
+
       <section className="border-b border-stone-200">
         <Container className="py-14 sm:py-20">
           <h2 className="text-2xl font-bold tracking-tight text-ink sm:text-3xl">
@@ -178,21 +193,6 @@ export default function Home() {
                 </ul>
               </div>
             ))}
-          </div>
-        </Container>
-      </section>
-
-      <section id="donate" className="scroll-mt-16 bg-pine-800">
-        <Container className="py-16 text-center sm:py-20">
-          <h2 className="mx-auto max-w-2xl text-2xl font-bold tracking-tight text-white sm:text-3xl">
-            Help keep America&apos;s wild places wild.
-          </h2>
-          <p className="mx-auto mt-4 max-w-xl text-base leading-7 text-pine-100">
-            Support the walk and the conservation organizations it funds. Your
-            gift goes directly to protecting the land under Wesley&apos;s feet.
-          </p>
-          <div className="mx-auto mt-8 max-w-md">
-            <GoFundMeEmbed />
           </div>
         </Container>
       </section>

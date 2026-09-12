@@ -68,6 +68,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} h-full scroll-smooth antialiased`}
     >
       <body className="flex min-h-full flex-col">
+        <style
+          dangerouslySetInnerHTML={{
+            __html: `body{margin:0;background-color:#faf9f7;color:#1c1a17;font-family:system-ui,sans-serif}h1,h2,h3{font-size:1.25rem;line-height:1.2}img{max-width:100%;height:auto}`,
+          }}
+        />
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />
