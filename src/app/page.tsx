@@ -28,7 +28,10 @@ export default function Home() {
         date: item.date,
         links: [],
       });
-      group.links.push({ label: item.platform ?? "Listen", href: item.href });
+      group.links.push({
+        label: item.platform ?? (item.format === "written" ? "Read" : "Listen"),
+        href: item.href,
+      });
       return groups;
     }, {}),
   ).sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
@@ -88,10 +91,6 @@ export default function Home() {
           <h2 className="text-2xl font-bold tracking-tight text-ink sm:text-3xl">
             Live trail tracker
           </h2>
-          <p className="mt-4 max-w-2xl text-lg leading-8 text-stone-600">
-            Follow {site.hiker}&apos;s position in real time as he walks across
-            America.
-          </p>
           <div className="mt-8">
             <TrackerEmbed html={trackerEmbedHtml} />
           </div>
@@ -103,10 +102,6 @@ export default function Home() {
           <h2 className="text-2xl font-bold tracking-tight text-ink sm:text-3xl">
             Podcast appearances
           </h2>
-          <p className="mt-4 max-w-2xl text-lg leading-8 text-stone-600">
-            Wesley has shared the walk and his story on long-distance hiking
-            podcasts.
-          </p>
           <ul className="mt-8 grid gap-4 sm:grid-cols-2">
             {podcastGroups.map((group) => (
               <li

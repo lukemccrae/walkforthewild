@@ -14,6 +14,7 @@ export type PodcastAppearance = {
   href: string;
   date: string;
   platform?: string;
+  format?: "audio" | "written";
 };
 
 export type PressItem = {
@@ -97,6 +98,7 @@ export const wesley = {
       title: "The Runaway Missionary (written)",
       href: "https://hikertrashradio.com/blog/the-runaway-missionary-wesley-megaman-tils",
       date: "Apr 18, 2024",
+      format: "written",
     },
     {
       show: "Hiker Trash Radio",
