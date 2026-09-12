@@ -67,7 +67,7 @@ export default function Home() {
             </p>
             <div className="mt-6 flex flex-wrap items-center justify-center gap-3 sm:mt-8 lg:justify-start">
               <DonateButton size="lg" />
-              <TrackerButton className="rounded-md border border-stone-300 bg-white px-6 py-3 text-base text-ink hover:bg-stone-100">
+              <TrackerButton className="inline-flex rounded-md border border-stone-300 bg-white px-6 py-3 text-base text-ink hover:bg-stone-100">
                 <span className="relative flex h-2 w-2" aria-hidden="true">
                   <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-pine-600 opacity-75" />
                   <span className="relative inline-flex h-2 w-2 rounded-full bg-pine-600" />

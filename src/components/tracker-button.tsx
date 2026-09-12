@@ -11,7 +11,7 @@ export function TrackerButton({
   return (
     <Link
       href="/#tracker"
-      className={`inline-flex items-center justify-center gap-2 font-semibold transition-colors ${className}`}
+      className={`items-center justify-center gap-2 font-semibold transition-colors ${className}`}
     >
       {children}
     </Link>
