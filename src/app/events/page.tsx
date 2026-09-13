@@ -120,8 +120,8 @@ export default function EventsPage() {
       </div>
 
       <p className="mt-6 text-xs leading-5 text-stone-500">
-        Dates and details come from each organization&apos;s site and should be
-        confirmed before publishing.
+        Check each organization&apos;s site for the latest event details and
+        updates.
       </p>
     </Container>
   );
