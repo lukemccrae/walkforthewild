@@ -1,34 +1,29 @@
-"use client";
-
-import { useEffect, useRef } from "react";
 import { site } from "@/content/site";
 
-export function TrackerEmbed({ html }: { html: string }) {
-  const ref = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el || !html.trim()) return;
-
-    el.innerHTML = html;
-
-    // innerHTML does not execute <script> tags. Re-create each one so
-    // third-party tracker scripts load and run.
-    const scripts = Array.from(el.querySelectorAll("script"));
-    for (const original of scripts) {
-      const script = document.createElement("script");
-      for (const attr of Array.from(original.attributes)) {
-        script.setAttribute(attr.name, attr.value);
+function trackerDocument(html: string) {
+  return `<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
       }
-      script.text = original.textContent ?? "";
-      original.replaceWith(script);
-    }
+      #corsa-embed {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    ${html}
+  </body>
+</html>`;
+}
 
-    return () => {
-      el.innerHTML = "";
-    };
-  }, [html]);
-
+export function TrackerEmbed({ html }: { html: string }) {
   if (!html.trim()) {
     return (
       <div className="rounded-lg border border-dashed border-stone-300 bg-stone-50 p-6 text-center">
@@ -54,5 +49,12 @@ export function TrackerEmbed({ html }: { html: string }) {
     );
   }
 
-  return <div ref={ref} className="overflow-hidden rounded-lg border border-stone-200" />;
+  return (
+    <iframe
+      title="Live trail tracker"
+      srcDoc={trackerDocument(html)}
+      loading="lazy"
+      className="h-[70vh] w-full overflow-hidden rounded-lg border border-stone-200 bg-white"
+    />
+  );
 }
