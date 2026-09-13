@@ -31,11 +31,11 @@ export const wesley = {
   age: 33,
   profession: "Archaeologist & long-distance backpacker",
   intro:
-    "Wesley \u201cMegaman\u201d Tils is one of the most experienced thru-hikers in the United States. In a decade of long-distance hiking he has completed 20 thru-hikes totalling roughly 15,000 miles, traversed every major physiographic region of the lower 48, and earned the Triple Crown.",
+    "Wesley \u201cMegaman\u201d Tils is a Triple Crown hiker who has hiked over 15,000 miles of long trails through every physiographic region in the United States, and is the creator and only thru-hiker of the 2,850-mile Fourth Crown Route. He is walking 8,000 miles from the easternmost point of the contiguous United States to its westernmost point to raise funding and awareness to help protect our public lands. He is making a documentary on the walk, and 100% of the proceeds go toward protecting our public lands.",
 
   bio: [
     "Wesley grew up in the Mormon church in Missouri. He left to become a pro boxer, returned for a trial of faith as a missionary in Northern California, and ultimately left the mission to live wild on the Pacific Crest Trail in 2014 \u2014 an episode that earned him the nickname \u201cThe Runaway Missionary.\u201d His path into thru-hiking and out of the church is chronicled in his e-book and podcast appearances.",
-    "Off the trail, Wesley works as an archaeologist, helping preserve wilderness areas while living a nomadic lifestyle between hikes. He is the creator and first thru-hiker of the Fourth Crown Route, a self-made ~2,900-mile Mexico-to-Canada route combining the Arizona Trail and the Idaho Centennial Trail.",
+    "Off the trail, Wesley works as an archaeologist, helping preserve wilderness areas while living a nomadic lifestyle between hikes. He is the creator and only thru-hiker of the 2,850-mile Fourth Crown Route, a self-made Mexico-to-Canada route combining the Arizona Trail and the Idaho Centennial Trail.",
   ],
 
   quote:
@@ -50,7 +50,7 @@ export const wesley = {
 
   notableHikes: [
     { name: "Triple Crown", note: "Appalachian Trail, Pacific Crest Trail, Continental Divide Trail" },
-    { name: "Fourth Crown Route", note: "Creator and first thru-hiker \u2014 Arizona Trail + Idaho Centennial Trail (~2,900 mi)" },
+    { name: "Fourth Crown Route", note: "Creator and only thru-hiker \u2014 Arizona Trail + Idaho Centennial Trail (2,850 mi)" },
     { name: "Hayduke Trail" },
     { name: "Maah Daah Hey Trail" },
     { name: "River to River Trail" },

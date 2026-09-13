@@ -4,6 +4,12 @@ export type SocialLink = {
   handle: string;
 };
 
+export type Sponsor = {
+  name: string;
+  href: string;
+  note: string;
+};
+
 export const site = {
   name: "Walk for the Wild",
   hiker: "Wesley Tils",
@@ -46,6 +52,24 @@ export const site = {
       handle: "Wesley Tils",
     },
   ] satisfies SocialLink[],
+
+  sponsors: [
+    {
+      name: "Bowl & Kettle",
+      href: "https://bowlandkettle.com/",
+      note: "Food",
+    },
+    {
+      name: "Save the Boundary Waters",
+      href: "https://www.savetheboundarywaters.org/",
+      note: "Conservation",
+    },
+    {
+      name: "North Country Trail",
+      href: "https://northcountrytrail.org",
+      note: "Trail",
+    },
+  ] satisfies Sponsor[],
 } as const;
 
 export type Site = typeof site;

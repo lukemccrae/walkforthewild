@@ -15,9 +15,6 @@ export function SiteHeader() {
           <span className="truncate text-lg font-bold tracking-tight">
             {site.name}
           </span>
-          <span className="hidden truncate text-sm font-medium text-stone-500 sm:inline">
-            {site.trailName} crosses America
-          </span>
         </Link>
         <div className="flex items-center gap-1.5">
           <TrackerButton className="hidden rounded-md bg-pine-700 px-3 py-2 text-sm text-white hover:bg-pine-800 md:inline-flex">

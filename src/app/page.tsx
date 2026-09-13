@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Container } from "@/components/container";
 import { DonateButton } from "@/components/donate-button";
 import { GoFundMeEmbed } from "@/components/gofundme-embed";
@@ -104,6 +105,41 @@ export default function Home() {
         </Container>
       </section>
 
+      <section className="border-b border-stone-200 bg-white">
+        <Container className="py-14 sm:py-20">
+          <div className="mx-auto w-full max-w-sm">
+            <Image
+              src="/wesley.jpg"
+              alt={`${site.hiker}, known on the trail as ${site.trailName}`}
+              width={1170}
+              height={1170}
+              className="h-auto w-full rounded-2xl border border-stone-200 shadow-sm"
+            />
+          </div>
+          <p className="mx-auto mt-10 max-w-2xl text-center text-lg leading-8 text-stone-600">
+            {wesley.intro}
+          </p>
+          <p className="mt-12 text-center text-sm leading-6 text-stone-600">
+            Supported by{" "}
+            {site.sponsors.map((sponsor, i) => (
+              <span key={sponsor.href}>
+                {i > 0 &&
+                  (i === site.sponsors.length - 1 ? ", and " : ", ")}
+                <a
+                  href={sponsor.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-ink underline underline-offset-4 hover:text-pine-700"
+                >
+                  {sponsor.name}
+                </a>{" "}
+                <span className="text-stone-500">({sponsor.note})</span>
+              </span>
+            ))}
+          </p>
+        </Container>
+      </section>
+
       <section
         id="media"
         className="scroll-mt-16 border-b border-stone-200"
@@ -167,6 +203,14 @@ export default function Home() {
           <p className="mt-4 max-w-2xl text-lg leading-8 text-stone-600">
             The walk crosses lands stewarded by these organizations, from Maine
             to the Pacific coast.
+          </p>
+          <p className="mt-4">
+            <Link
+              href="/events"
+              className="text-sm font-semibold text-pine-700 underline underline-offset-4 hover:text-pine-800"
+            >
+              Conservation events →
+            </Link>
           </p>
           <div className="mt-8 grid gap-8">
             {conservation.map((region) => (

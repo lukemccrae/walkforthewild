@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { site } from "@/content/site";
 import { Container } from "./container";
 
@@ -39,13 +38,7 @@ export function SiteFooter() {
         <p className="mt-10 border-t border-stone-200 pt-6 text-xs leading-5 text-stone-500">
           &copy; {year} {site.name}. A walk for the protection of US public
           lands. This site is not affiliated with the National Park Service or
-          any land management agency.{" "}
-          <Link
-            href="/events"
-            className="underline underline-offset-2 hover:text-pine-700"
-          >
-            Conservation events
-          </Link>
+          any land management agency.
         </p>
       </Container>
     </footer>
