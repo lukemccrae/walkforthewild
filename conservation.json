@@ -2,6 +2,7 @@
   "regions": [
     {
       "region": "Maine",
+      "timing": "Passed · May – Jun 2026",
       "organizations": [
         {
           "name": "Appalachian Trail Conservancy",
@@ -22,6 +23,7 @@
     },
     {
       "region": "New Hampshire",
+      "timing": "Passed · mid-Jun – early Jul 2026",
       "organizations": [
         {
           "name": "Appalachian Mountain Club",
@@ -37,6 +39,7 @@
     },
     {
       "region": "Vermont",
+      "timing": "Passed · Jul 11 – 17, 2026",
       "organizations": [
         {
           "name": "Green Mountain Club",
@@ -52,6 +55,7 @@
     },
     {
       "region": "New York",
+      "timing": "Passed · Jul 17 – Aug 22, 2026",
       "organizations": [
         {
           "name": "Adirondack Council",
@@ -72,6 +76,7 @@
     },
     {
       "region": "Pennsylvania",
+      "timing": "Passed · Aug 22 – Sep 2, 2026",
       "organizations": [
         {
           "name": "Western Pennsylvania Conservancy",
@@ -87,6 +92,7 @@
     },
     {
       "region": "Ohio",
+      "timing": "Current · from Sep 2, 2026",
       "organizations": [
         {
           "name": "Buckeye Trail Association",
@@ -97,6 +103,7 @@
     },
     {
       "region": "Michigan",
+      "timing": "Projected · Oct – Dec 2026",
       "organizations": [
         {
           "name": "North Country Trail Association",
@@ -117,6 +124,7 @@
     },
     {
       "region": "Wisconsin",
+      "timing": "Projected · Dec 2026 – Jan 2027",
       "organizations": [
         {
           "name": "Ice Age Trail Alliance",
@@ -127,6 +135,7 @@
     },
     {
       "region": "Minnesota",
+      "timing": "Projected · Jan – Mar 2027",
       "organizations": [
         {
           "name": "The Nature Conservancy in Minnesota",
@@ -137,6 +146,7 @@
     },
     {
       "region": "North Dakota",
+      "timing": "Projected · Mar – Apr 2027",
       "organizations": [
         {
           "name": "Badlands Conservation Alliance",
@@ -152,6 +162,7 @@
     },
     {
       "region": "Montana",
+      "timing": "Projected · Apr – Jul 2027",
       "organizations": [
         {
           "name": "Wild Montana",
@@ -177,6 +188,7 @@
     },
     {
       "region": "Idaho",
+      "timing": "Projected · Jul – Aug 2027",
       "organizations": [
         {
           "name": "Idaho Conservation League",
@@ -192,6 +204,7 @@
     },
     {
       "region": "Washington",
+      "timing": "Projected · Aug – Nov 2027",
       "organizations": [
         {
           "name": "Washington Trails Association",

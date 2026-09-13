@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Corsa" xmlns="http://www.topografix.com/GPX/1/1" xmlns:corsa="https://corsa.run">
+  <metadata>
+    <name>walkforthewild - Walk for the Wild</name>
+    <author>
+      <name>Corsa</name>
+      <link href="https://corsa.run">
+        <text>Built with Corsa</text>
+      </link>
+    </author>
+    <desc>Built with Corsa</desc>
+  </metadata>
+  <trk>
+    <name>walkforthewild - Walk for the Wild</name>
+    <trkseg>
+        <trkpt lat="44.81490986004999" lon="-66.95084303801107">
+          <ele>1606</ele>
+          <time>2026-05-25T12:00:00.000Z</time>
+          <extensions>
+            <corsa:mileMarker>0</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="45.9044" lon="-68.9214">
+          <ele>1606</ele>
+          <time>2026-06-04T16:00:00.000Z</time>
+          <extensions>
+            <corsa:mileMarker>230.57</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="44.511" lon="-71.006">
+          <ele>906</ele>
+          <time>2026-06-25T16:00:00.000Z</time>
+          <extensions>
+            <corsa:mileMarker>230.57</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="43.7036" lon="-72.2997">
+          <ele>122</ele>
+          <time>2026-07-11T16:00:00.000Z</time>
+          <extensions>
+            <corsa:mileMarker>740.3</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="43.6748" lon="-72.8393">
+          <ele>640</ele>
+          <time>2026-07-14T16:00:00.000Z</time>
+          <extensions>
+            <corsa:mileMarker>795.83</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="44.0287" lon="-73.4295">
+          <ele>46</ele>
+          <time>2026-07-17T16:00:00.000Z</time>
+          <extensions>
+            <corsa:mileMarker>876.34</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="42.157191038131714" lon="-78.74639511108398">
+          <ele>-422</ele>
+          <time>2026-08-19T20:37:15.000Z</time>
+          <extensions>
+            <corsa:mileMarker>1455.78</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="42.00713753700256" lon="-78.78658533096313">
+          <ele>624.97955</ele>
+          <time>2026-08-20T19:45:45.000Z</time>
+          <extensions>
+            <corsa:mileMarker>1475.69</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="42.00291037559509" lon="-78.81469488143921">
+          <ele>-422</ele>
+          <time>2026-08-20T20:45:45.000Z</time>
+          <extensions>
+            <corsa:mileMarker>1478.12</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="42.009100914001465" lon="-78.88460397720337">
+          <ele>561.1109</ele>
+          <time>2026-08-21T14:03:30.000Z</time>
+          <extensions>
+            <corsa:mileMarker>1478.12</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="41.80352568626404" lon="-78.87554883956909">
+          <ele>622.84357</ele>
+          <time>2026-08-22T16:16:30.000Z</time>
+          <extensions>
+            <corsa:mileMarker>1478.12</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="41.77428623163342" lon="-78.879452453168">
+          <ele>481.3450395533573</ele>
+          <time>2026-08-22T18:28:25.485Z</time>
+          <extensions>
+            <corsa:mileMarker>1523.17</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="41.71931505203247" lon="-78.8953971862793">
+          <ele>723.786</ele>
+          <time>2026-08-23T11:14:30.000Z</time>
+          <extensions>
+            <corsa:mileMarker>1531.61</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="41.7140257358551" lon="-78.92590999603271">
+          <ele>-422</ele>
+          <time>2026-08-23T12:14:30.000Z</time>
+          <extensions>
+            <corsa:mileMarker>1534.5</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="41.65041446685791" lon="-79.07836675643921">
+          <ele>573.85016</ele>
+          <time>2026-08-23T21:22:00.000Z</time>
+          <extensions>
+            <corsa:mileMarker>1534.5</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="41.66566014289856" lon="-79.19771432876587">
+          <ele>537.7993</ele>
+          <time>2026-08-24T14:30:30.000Z</time>
+          <extensions>
+            <corsa:mileMarker>1569.13</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="41.48715376853943" lon="-79.20417308807373">
+          <ele>567.4784</ele>
+          <time>2026-08-25T15:29:45.000Z</time>
+          <extensions>
+            <corsa:mileMarker>1569.13</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="41.462745666503906" lon="-79.19616937637329">
+          <ele>-422</ele>
+          <time>2026-08-25T16:29:45.000Z</time>
+          <extensions>
+            <corsa:mileMarker>1604.2</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="41.46297097206116" lon="-79.13218259811401">
+          <ele>-422</ele>
+          <time>2026-08-25T19:47:45.000Z</time>
+          <extensions>
+            <corsa:mileMarker>1604.2</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="41.463282108306885" lon="-79.13203239440918">
+          <ele>-422</ele>
+          <time>2026-08-25T21:47:45.000Z</time>
+          <extensions>
+            <corsa:mileMarker>1604.2</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="41.31779909133911" lon="-79.24571514129639">
+          <ele>313.7538</ele>
+          <time>2026-08-26T20:52:45.000Z</time>
+          <extensions>
+            <corsa:mileMarker>1626.82</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="41.299248933792114" lon="-79.27639961242676">
+          <ele>468.19266</ele>
+          <time>2026-08-26T22:53:15.000Z</time>
+          <extensions>
+            <corsa:mileMarker>1632.07</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="41.27136999476398" lon="-79.32654019431034">
+          <ele>457.62546448223526</ele>
+          <time>2026-08-27T12:50:42.069Z</time>
+          <extensions>
+            <corsa:mileMarker>1632.07</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="41.01909168274182" lon="-79.94744078711147">
+          <ele>429.2277230003943</ele>
+          <time>2026-08-30T21:49:29.997Z</time>
+          <extensions>
+            <corsa:mileMarker>1765.27</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="40.96907064785026" lon="-80.08389385737175">
+          <ele>452.64549915470803</ele>
+          <time>2026-08-31T15:03:55.813Z</time>
+          <extensions>
+            <corsa:mileMarker>1779.8</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="40.7746150372054" lon="-80.51890752742321">
+          <ele>285.53313735482703</ele>
+          <time>2026-09-02T20:26:38.882Z</time>
+          <extensions>
+            <corsa:mileMarker>1835.19</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="40.6117982071424" lon="-81.42319164405396">
+          <ele>202.4032192482801</ele>
+          <time>2026-09-05T15:02:17.343Z</time>
+          <extensions>
+            <corsa:mileMarker>1932.86</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="40.7014465670204" lon="-81.50685385929235">
+          <ele>286.96451612263934</ele>
+          <time>2026-09-05T19:37:09.877Z</time>
+          <extensions>
+            <corsa:mileMarker>1945.96</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="40.75169908491277" lon="-81.52802354028724">
+          <ele>282.2110594985314</ele>
+          <time>2026-09-06T10:40:12.776Z</time>
+          <extensions>
+            <corsa:mileMarker>1952.1</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="41.12061035101481" lon="-81.5339448819971">
+          <ele>228.82186426067477</ele>
+          <time>2026-09-06T23:58:41.848Z</time>
+          <extensions>
+            <corsa:mileMarker>1952.1</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="41.29801833734126" lon="-81.65806030045435">
+          <ele>0</ele>
+          <time>2026-09-07T23:26:04.926Z</time>
+          <extensions>
+            <corsa:mileMarker>1952.1</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="41.187130507314656" lon="-81.78284754076373">
+          <ele>312.3857428263873</ele>
+          <time>2026-09-08T18:15:43.536Z</time>
+          <extensions>
+            <corsa:mileMarker>1952.1</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="41.11567033021268" lon="-82.17152967920723">
+          <ele>282.2142891619345</ele>
+          <time>2026-09-09T19:44:34.927Z</time>
+          <extensions>
+            <corsa:mileMarker>2022.08</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="41.242012801040055" lon="-82.36124628524396">
+          <ele>262.5253377782928</ele>
+          <time>2026-09-10T15:51:31.468Z</time>
+          <extensions>
+            <corsa:mileMarker>2022.08</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="41.242306045991825" lon="-82.64466255103127">
+          <ele>210.56540268928774</ele>
+          <time>2026-09-10T23:33:05.159Z</time>
+          <extensions>
+            <corsa:mileMarker>2070.78</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="41.32072895032033" lon="-83.04096877159311">
+          <ele>185.5460157301427</ele>
+          <time>2026-09-11T19:43:53.891Z</time>
+          <extensions>
+            <corsa:mileMarker>2070.78</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="41.38922571600591" lon="-83.18110905367365">
+          <ele>187.4012613651552</ele>
+          <time>2026-09-11T23:51:32.461Z</time>
+          <extensions>
+            <corsa:mileMarker>2112.51</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+        <trkpt lat="41.43564383693345" lon="-83.63240443741172">
+          <ele>204.3218401921913</ele>
+          <time>2026-09-13T01:01:47.402Z</time>
+          <extensions>
+            <corsa:mileMarker>0</corsa:mileMarker>
+          </extensions>
+        </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

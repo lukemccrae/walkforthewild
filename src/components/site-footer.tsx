@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { site } from "@/content/site";
 import { Container } from "./container";
 
@@ -7,7 +8,7 @@ export function SiteFooter() {
   return (
     <footer className="border-t border-stone-200 bg-white">
       <Container className="py-12">
-        <div className="grid gap-8 sm:grid-cols-2">
+        <div className="grid gap-8">
           <div>
             <p className="font-bold tracking-tight text-ink">{site.name}</p>
             <p className="mt-2 max-w-xs text-sm leading-6 text-stone-600">
@@ -38,7 +39,13 @@ export function SiteFooter() {
         <p className="mt-10 border-t border-stone-200 pt-6 text-xs leading-5 text-stone-500">
           &copy; {year} {site.name}. A walk for the protection of US public
           lands. This site is not affiliated with the National Park Service or
-          any land management agency.
+          any land management agency.{" "}
+          <Link
+            href="/events"
+            className="underline underline-offset-2 hover:text-pine-700"
+          >
+            Conservation events
+          </Link>
         </p>
       </Container>
     </footer>

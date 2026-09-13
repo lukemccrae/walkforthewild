@@ -8,6 +8,7 @@ export type ConservationOrg = {
 
 export type ConservationRegion = {
   region: string;
+  timing: string;
   organizations: ConservationOrg[];
 };
 

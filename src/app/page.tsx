@@ -40,8 +40,8 @@ export default function Home() {
   return (
     <>
       <section className="border-b border-stone-200">
-        <Container className="grid items-center gap-8 py-10 sm:py-16 lg:grid-cols-[1fr_20rem] lg:gap-14 lg:py-24">
-          <div className="order-1 mx-auto w-full max-w-sm lg:order-2 lg:max-w-none">
+        <Container className="flex flex-col items-center gap-8 py-10 text-center sm:py-16 lg:py-24">
+          <div className="w-full max-w-sm">
             <Image
               src="/megaman.jpg"
               alt={`${site.hiker}, known on the trail as ${site.trailName}`}
@@ -52,7 +52,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="order-2 text-center lg:order-1 lg:text-left">
+          <div>
             <p className="hidden text-xs font-semibold uppercase tracking-widest text-pine-700 sm:block">
               Easternmost to westernmost · 13 states · on foot
             </p>
@@ -66,7 +66,7 @@ export default function Home() {
               Quoddy Head, Maine to Cape Alava, Washington. Every mile raises
               money for the protection of US public lands.
             </p>
-            <div className="mt-6 flex flex-wrap items-center justify-center gap-3 sm:mt-8 lg:justify-start">
+            <div className="mt-6 flex flex-wrap items-center justify-center gap-3 sm:mt-8">
               <DonateButton size="lg" />
               <TrackerButton className="inline-flex rounded-md border border-stone-300 bg-white px-6 py-3 text-base text-ink hover:bg-stone-100">
                 <span className="relative flex h-2 w-2" aria-hidden="true">
@@ -112,7 +112,7 @@ export default function Home() {
           <h2 className="text-2xl font-bold tracking-tight text-ink sm:text-3xl">
             Media
           </h2>
-          <ul className="mt-8 grid gap-4 sm:grid-cols-2">
+          <ul className="mt-8 grid gap-4">
             {podcastGroups.map((group) => (
               <li
                 key={group.title}
@@ -168,12 +168,15 @@ export default function Home() {
             The walk crosses lands stewarded by these organizations, from Maine
             to the Pacific coast.
           </p>
-          <div className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-8 grid gap-8">
             {conservation.map((region) => (
               <div key={region.region}>
                 <h3 className="text-sm font-semibold uppercase tracking-widest text-pine-700">
                   {region.region}
                 </h3>
+                <p className="mt-1 text-xs font-medium uppercase tracking-wide text-stone-500">
+                  {region.timing}
+                </p>
                 <ul className="mt-3 space-y-4">
                   {region.organizations.map((org) => (
                     <li key={org.link}>
