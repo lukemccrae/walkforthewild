@@ -155,6 +155,13 @@ export const wesley = {
       href: "https://www.iheart.com/podcast/269-yeti-walks-into-basecamp-t-148017635/episode/e108-walk-for-the-wild-me-to-ny-1300-miles-hiked-part-2-w-wesley-megaman-tils-343339092",
       date: "Sep 7, 2026",
     },
+    {
+      show: "Revolutionary Dirtbag Podcast",
+      title: "Megaman \u2014 Almost Eaten by a Grizzly, Finding Purpose, Taking a Leap of Faith & Hiking 1.5 Years Cont.",
+      href: "https://open.spotify.com/episode/11A8qWx5Qa1ni2ncVPpPhF",
+      date: "Sep 14, 2026",
+      platform: "Spotify",
+    },
   ] satisfies PodcastAppearance[],
 
   press: [
