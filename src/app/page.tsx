@@ -54,19 +54,10 @@ export default function Home() {
           </div>
 
           <div>
-            <p className="hidden text-xs font-semibold uppercase tracking-widest text-pine-700 sm:block">
-              Easternmost to westernmost · 13 states · on foot
-            </p>
             <h1 className="text-3xl font-bold leading-tight tracking-tight text-ink sm:mt-4 sm:text-4xl lg:text-5xl">
               Walking {expedition.distanceMiles.toLocaleString()} miles across
               America for public lands.
             </h1>
-            <p className="mt-5 hidden text-lg leading-8 text-stone-600 sm:block">
-              {site.hiker} — known on the trail as &ldquo;
-              {site.trailName}&rdquo; — is attempting the first walk from West
-              Quoddy Head, Maine to Cape Alava, Washington. Every mile raises
-              money for the protection of US public lands.
-            </p>
             <div className="mt-6 flex flex-wrap items-center justify-center gap-3 sm:mt-8">
               <DonateButton size="lg" />
               <TrackerButton className="inline-flex rounded-md border border-stone-300 bg-white px-6 py-3 text-base text-ink hover:bg-stone-100">
@@ -84,8 +75,7 @@ export default function Home() {
               </a>
             </div>
             <p className="mt-4 hidden text-sm text-stone-500 sm:block">
-              Started May 25, 2026 · projected finish{" "}
-              {expedition.projectedFinish}
+              Started {expedition.startDate}
             </p>
           </div>
         </Container>
