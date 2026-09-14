@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useRef } from "react";
 import { site } from "@/content/site";
 
 function trackerDocument(html: string) {
@@ -10,10 +13,6 @@ function trackerDocument(html: string) {
       html,
       body {
         margin: 0;
-        height: 100%;
-      }
-      #corsa-embed {
-        height: 100%;
       }
     </style>
   </head>
@@ -24,6 +23,37 @@ function trackerDocument(html: string) {
 }
 
 export function TrackerEmbed({ html }: { html: string }) {
+  const iframeRef = useRef<HTMLIFrameElement>(null);
+
+  useEffect(() => {
+    const iframe = iframeRef.current;
+    if (!iframe) return;
+
+    const resizeToContent = () => {
+      const doc = iframe.contentDocument;
+      if (!doc?.body) return;
+      const height = Math.max(
+        doc.body.scrollHeight,
+        doc.body.offsetHeight,
+        doc.documentElement.scrollHeight,
+        doc.documentElement.offsetHeight,
+      );
+      if (height > 0) iframe.style.height = `${height}px`;
+    };
+
+    const onLoad = () => {
+      const doc = iframe.contentDocument;
+      if (!doc?.body) return;
+      const observer = new ResizeObserver(resizeToContent);
+      observer.observe(doc.body);
+      resizeToContent();
+      return () => observer.disconnect();
+    };
+
+    iframe.addEventListener("load", onLoad);
+    return () => iframe.removeEventListener("load", onLoad);
+  }, [html]);
+
   if (!html.trim()) {
     return (
       <div className="rounded-lg border border-dashed border-stone-300 bg-stone-50 p-6 text-center">
@@ -51,10 +81,12 @@ export function TrackerEmbed({ html }: { html: string }) {
 
   return (
     <iframe
+      ref={iframeRef}
       title="Live trail tracker"
       srcDoc={trackerDocument(html)}
       loading="lazy"
-      className="h-[70vh] w-full overflow-hidden rounded-lg border border-stone-200 bg-white"
+      className="w-full overflow-hidden rounded-lg border border-stone-200 bg-white"
+      style={{ height: "70vh", minHeight: 480 }}
     />
   );
 }

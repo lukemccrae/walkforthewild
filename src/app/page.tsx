@@ -31,7 +31,7 @@ export default function Home() {
         links: [],
       });
       group.links.push({
-        label: item.platform ?? (item.format === "written" ? "Read" : "Listen"),
+        label: item.format === "written" ? "Read" : (item.platform ?? "Listen"),
         href: item.href,
       });
       return groups;
