@@ -72,6 +72,9 @@ const events: ConservationEvent[] = [
   { name: "North Cascades Night at the Seattle Kraken", date: "Dec 6, 2026", sort: "2026-12-06", type: "Event", location: "Seattle, WA", org: "Washington Trails Association", region: "Washington", link: "https://www.wta.org/get-involved/events" },
 ];
 
-export const conservationEvents = [...events].sort((a, b) =>
-  a.sort.localeCompare(b.sort),
-);
+const today = new Date();
+const todaySort = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
+
+export const conservationEvents = [...events]
+  .filter((event) => event.sort >= todaySort)
+  .sort((a, b) => a.sort.localeCompare(b.sort));
