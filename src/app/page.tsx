@@ -73,6 +73,12 @@ export default function Home() {
               >
                 Media
               </a>
+              <Link
+                href="/events"
+                className="inline-flex items-center justify-center rounded-md border border-stone-300 bg-white px-6 py-3 text-base font-semibold text-ink transition-colors hover:bg-stone-100"
+              >
+                Conservation Events
+              </Link>
             </div>
             <p className="mt-4 hidden text-sm text-stone-500 sm:block">
               Started {expedition.startDate}
