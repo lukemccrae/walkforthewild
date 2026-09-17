@@ -72,8 +72,18 @@ const events: ConservationEvent[] = [
   { name: "North Cascades Night at the Seattle Kraken", date: "Dec 6, 2026", sort: "2026-12-06", type: "Event", location: "Seattle, WA", org: "Washington Trails Association", region: "Washington", link: "https://www.wta.org/get-involved/events" },
 ];
 
-const today = new Date();
-const todaySort = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
+const todayParts = new Intl.DateTimeFormat("en-CA", {
+  timeZone: "America/Chicago",
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit",
+})
+  .formatToParts(new Date())
+  .reduce<Record<string, string>>((acc, part) => {
+    if (part.type !== "literal") acc[part.type] = part.value;
+    return acc;
+  }, {});
+const todaySort = `${todayParts.year}-${todayParts.month}-${todayParts.day}`;
 
 export const conservationEvents = [...events]
   .filter((event) => event.sort >= todaySort)
